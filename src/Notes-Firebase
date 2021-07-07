@@ -1,0 +1,31 @@
+Firebase
+    - Project Settings > SDK setup and configuration > copy config 
+        - go to project .src folder > create a file called firebase.js
+        - install firebase dependencies
+            - terminal
+                - npm install firebase
+            - firebase.js
+                - import firebase from 'firebase';
+                - pase the copied firebase configuration
+                - initialize firebaseApp with the firebaseConfig from firebase library sdk
+                - get the firebase db instance in firestore
+                - get the auth from firebase
+                - get the authentication sign-in provider instance
+                - export the auth and provider as explicit exports
+                - default export the db
+    - Firestore
+        - create database 
+        - start in test mode
+        - authentication > get started > sign-in method > enable sign-in providers
+        - Firestore Database > Rules > Edit rules
+            - remove this line request.time < timestamp.date(2021, 8, 4)
+        - 
+    - Login.js
+        - import auth and provider from local firebase.js configuration into the functionLogin
+        - use auth to sign in with the provider
+
+    - channels
+        - Cloud Firestore > Data > Start Collection > enter collection name
+        - 
+
+

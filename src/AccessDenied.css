@@ -1,0 +1,10 @@
+.accessDenied {
+    display: flex;
+    flex-direction: column;
+    background-color: #363a3f;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+}

@@ -1,0 +1,29 @@
+- React-Redux-Clone-Discord
+    - App.js
+        - Sidebar.js
+            - SidebarChannel.js
+        - Header.js
+        - Chat.js
+            - ChatHeader.js
+            - Message.js
+                - we can access information from the userSlice data layer
+        - Login.js
+            - data is pushed/pulled into the userSlice.js layer
+        - Logout.js
+            - data is pushed/pulleds into the userSlice.js layer
+    - store.js
+        -
+
+    - Redux
+        - is the data layer that wraps the entire application and all of its components
+            - this data layer will have multiple slices
+                - appSlice.js
+                    - contains all of the generic information about the app
+                - userSlice.js
+                    - contains all of the user information and data about the user
+
+BAD PRACTICES:
+    - Excessive Prop-Drilling: 
+        - passing props down through one component to another
+
+
